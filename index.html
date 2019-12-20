@@ -5,6 +5,15 @@
 	<title>Document</title>
 	<style>
 		.bmap{width:600px;height: 400px;border: 1px solid black}
+		.box {width:200px;height: 200px;position: relative;margin:20px 70px  ;transition:5s all ease;transform:perspective(700px) rotateX(0deg) rotateY(0deg);transform-style:preserve-3d;}
+		.box div {width: 198px;height: 198px;border: 1px solid black;position: absolute;left:0;top: 0;background: rgba(0,255,0,0.7);}
+		.box:active{transform:perspective(700px) rotateX(360deg) rotateY(180deg);}
+		.box div.front {transform: translateZ(100px)scale(0.4);}
+		.box div.back {transform:  translateZ(-100px) ;}
+		.box div.right {transform:rotateY(90deg) translateZ(100px)scale(0.3);}
+		.box div.left {transform:rotateY(-90deg) translateZ(100px);}
+		.box div.top {transform:rotateX(90deg) translateZ(100px)scale(0.5);}
+		.box div.down {transform:rotateX(-90deg) translateZ(100px);}
 	</style>
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
 	<script>
@@ -80,5 +89,15 @@
 <body>
 	<input type="button" value="有没有去黄山的！！！" id="btn1">
 	<div class="bmap" id="bmap"></div>
+	<div class="box">
+		<div class="front"><img src="img/1.png" alt="">前</div>
+		<div class="back"><img src="img/2.jpg" alt="">后</div>
+		<div class="top"><img src="img/3.jpg" alt="">上</div>
+		<div class="down"><img src="img/4.png" alt="">下</div>
+		<div class="left"><img src="img/5.gif" alt="">左</div>
+		<div class="right"><img src="img/6.png" alt="">右</div>
+	</div>
+	
+	<!-- <img src="./img/1.png" alt=""> -->
 </body>
 </html>
