@@ -1,0 +1,9 @@
+img{vertical-align: middle;}
+*{margin:0;padding:0;}
+ul{list-style: none}
+a{text-decoration: none}
+.red{background:red;}
+.blue{background:lightblue;}
+.orange{background:darkorange;}
+.green{background:darkslategray;}
+.clear{clear:both;}

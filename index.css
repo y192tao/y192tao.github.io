@@ -1,0 +1,36 @@
+header{width:100%;height:100px;position:fixed;z-index:2;top:0;background: #abcdef;min-width: 780px}
+header .logo img{width:80px;height:80px;margin:10px 0 0 100px;float:left;}
+h1{width:230px;height:152px;text-align:center;line-height:152px;color:green;font-family: "微软雅黑";letter-spacing: 20px;
+}
+.h1stik{z-index:3;position:sticky;top:-26px;margin:-152px auto;}
+
+.banner{width:1000px;min-heigh:172px;margin:100px auto 0;border:6px dotted pink;overflow:hidden;
+position:sticky;top:-78px;}
+.banner h1{margin:-162px 10px 0 10px;letter-spacing: 20px}
+.banner .red1{color:red;float:left;}
+.banner .purple1{color:purple;float:right;}
+nav{float:right;text-align:center;margin-right:80px;}
+nav a{display: block;line-height: 100px;height: 100px;width:80px;
+	float:left;color:#fff;font-size: 18px;font-family: "微软雅黑"}
+nav a:hover{color:red;background: orange}
+
+.banner img{width:230px;height:152px;margin:0px;float:left;display:block;margin:10px;}
+.layer{width:100%;height:152px;background:#000;opacity: 0.5;margin-top:-168px;position:sticky;top:-44px;}
+
+.picz1 {margin-top:200px;}
+.picz1 .title{width:500px;height:30px;margin:0 auto;overflow:hidden;text-align: center;background:}
+.picz1 .title a{width:80px;padding:0 10px;height:30px;color:orange;float:left;display:block;font-size: 25px;font-family: "宋体";
+font-style: italic;decoration:line-through;}
+.picz1 .con{width:1512px;margin:0 auto;position:relative;}
+.picz1 .con ul{width:1500px;height:422px;border:6px double red;
+		margin:20px auto;overflow: hidden;}
+.picz1 .con img{width:750px;height:422px;float:left;}
+.picz1 button{width:100px;height:100px;background:pink;border:1px solid yellow;
+	position:absolute;margin-top:-50px;outline:none;cursor:pointer;}
+.picz1 button:hover{color:#fff;}
+.picz1 button:active{background: red;}
+.picz1 #left{left:0;top:50%;margin-left:-100px;}
+.picz1 #right{right:0;top:50%;margin-right:-100px;}
+footer{height:80px;background:#777;text-align: center;line-height: 80px}
+footer .left{padding-left:200px;float:left;}
+footer .right{padding-right:200px;float:right;}
